@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../src/assets/2.jpg)!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+
+/* CUSTOM FONTS*/
+
+@font-face {
+    font-family: Cairo;
+    src: url(../public/fonts/Cairo/Cairo-Regular.ttf);
+    weight: 500
+}
+
+@font-face {
+    font-family: Cairo;
+    src: url(../public/fonts/Cairo/Cairo-Light.ttf);
+    weight: 400
+}
+
+@font-face {
+    font-family: Cairo;
+    src: url(../public/fonts/Cairo/Cairo-Medium.ttf);
+    weight: 600
+}
+
+

@@ -1,0 +1,36 @@
+
+
+@media (max-width: 800px) {
+    .title{
+        font-size: 30px !important;
+    }
+
+    .date{
+        font-size: 12px !important;
+    }
+
+    .main-temp{
+        font-size: 30px !important;
+    }
+
+    .info{
+        font-size: 14px !important;
+    }
+
+    .icon{
+
+        font-size: 100px !important;
+        /* color: rgba(0, 0, 255, 0.459) */
+    }
+
+    .main{
+        gap: 10px !important;
+        justify-content: space-between !important;
+    }
+
+    button{
+
+        width: 80px !important;
+        font-size: 14px !important;
+    }
+}
