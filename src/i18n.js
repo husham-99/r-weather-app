@@ -9,6 +9,9 @@ i18n
     lng: 'ar', // default language
     fallbackLng: 'en',
     debug: true,
+    backend: {
+      loadPath: `${import.meta.env.VITE_BASE_URL}locales/{{lng}}/{{ns}}.json`,
+    },
     interpolation: {
       escapeValue: false,
     },

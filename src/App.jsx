@@ -3,6 +3,8 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import './index.css'
 import Card from "./Card";
+import.meta.env.VITE_BASE_URL
+
 
 
 
